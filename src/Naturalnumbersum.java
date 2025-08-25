@@ -1,6 +1,6 @@
 import java.util.*;
 
-class NaturalNumberSum {
+class Naturalnumbersum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

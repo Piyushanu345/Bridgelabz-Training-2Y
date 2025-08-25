@@ -1,6 +1,6 @@
 import java.util.*;
 
-class SmallestCheck {
+class Smallestcheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

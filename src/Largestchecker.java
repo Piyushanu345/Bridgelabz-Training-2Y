@@ -1,6 +1,6 @@
 import java.util.*;
 
-class LargestChecker {
+class Largestchecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

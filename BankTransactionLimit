@@ -1,0 +1,19 @@
+class BankTransactionLimit {
+
+    public static double remainingLimit(Double limit, double usedAmount) {
+        if (limit == null) {
+            return 0.0;  // Handle null safely
+        }
+        return limit - usedAmount;
+    }
+
+    public static void main(String[] args) {
+        Double limit1 = 10000.0;
+        double used1 = 4500.0;
+        Double limit2 = null;
+        double used2 = 1000.0;
+
+        System.out.println("Remaining limit (Account 1): " + remainingLimit(limit1, used1));
+        System.out.println("Remaining limit (Account 2 - null limit): " + remainingLimit(limit2, used2));
+    }
+}
